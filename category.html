@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <title>Category Products - E-commerce</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/5f78848f52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <!-- End Sidebar-->
+   <nav class="navbar navbar-expand-lg navbar-light  " style="background-color: #13263c;">
+      <img src="logo.png" style="width:auto;height:45px;">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <a href="signin.html" style="color:white;margin-right:10px;">Sign In</a>
+      <span style="font-size:30px;cursor:pointer;color:white; " onclick="openNav()">&#9776;</span>&nbsp;&nbsp;
+      <form class="form-inline my-2 my-lg-0">
+         <input class="searchInput form-control mr-sm-2" style="width:70%;margin-right:18px;" type="search"
+            placeholder="Search" aria-label="Search">
+         <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+   </nav>
+   <!-- End Navbar -->
+   <!-- Start Sidebar-->
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <img src="logo.png" style="width:auto;height:35px;margin:20px;margin-top:-45px;">
+      <a href="index.html">Home</a>
+      <hr>
+      <a href="#">Account Settings</a>
+      <hr>
+      <a href="#">About Us</a>
+      <hr>
+      <a href="#">Contact Us</a>
+      <hr>
+      <a href="#">Logout</a>
+      <hr>
+   </div>
+   <!-- End Sidebar -->
+   <div class="container">
+
+
+      <span style="font-size:24px;">Clothes</span>
+      <span style="float:right;margin-top:10px;">Filter <i class="fas fa-sort-amount-down"></i></span>
+
+      <br>
+
+      <!-- Product 1-->
+      <div style="margin-top:15px;">
+         <div class="oneline" style="margin-top:20px;">
+            <a href="product.html"><img class="categoryImg" style="width:140px;height:120px;" src="images/clothes.jpg"></a>
+         </div>
+
+         <div class="oneline"  >
+            <div><b>Name: </b> Cloth 1 <br>
+               <b>Rating: </b> 4.7/5<br>
+               <b>Price: </b> 14.99 $
+            </div>
+         </div>
+      </div>
+       <!-- Product 2-->
+       <div style="margin-top:15px;">
+         <div class="oneline" style="margin-top:20px;">
+            <a href="product.html"><img class="categoryImg" style="width:140px;height:120px;" src="images/cloth_2.jpg"></a>
+         </div>
+
+         <div class="oneline"  >
+            <div><b>Name: </b> Cloth 2 <br>
+               <b>Rating: </b> 4/5<br>
+               <b>Price: </b> 7.99 $
+            </div>
+         </div>
+      </div>
+    <!-- Product 3-->
+    <div style="margin-top:15px;">
+      <div class="oneline" style="margin-top:20px;">
+         <a href="product.html"><img class="categoryImg" style="width:140px;height:120px;" src="images/cloth_3.jpg"></a>
+      </div>
+
+      <div class="oneline"  >
+         <div><b>Name: </b> Cloth 3 <br>
+            <b>Rating: </b> 4.3/5<br>
+            <b>Price: </b> 10.99 $
+         </div>
+      </div>
+   </div>
+      <!-- Product 2-->
+      <div style="margin-top:15px;">
+         <div class="oneline" style="margin-top:20px;">
+            <a href="product.html"><img class="categoryImg" style="width:140px;height:120px;" src="images/cloth_4.jpg"></a>
+         </div>
+
+         <div class="oneline"  >
+            <div><b>Name: </b> Cloth 4 <br>
+               <b>Rating: </b> 3.5/5<br>
+               <b>Price: </b> 23.99 $
+            </div>
+         </div>
+      </div>
+   </div>
+   <br><br>
+   <footer class="w-100  flex-shrink-0 ">
+      <div class="container py-4">
+         <div style="float:left;">
+            <ul class="list-unstyled text-light">
+               <li><a href="#" class="white">Home</a></li>
+               <li><a href="#" class="white">About Us</a></li>
+               <li><a href="#" class="white">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="float:right;">
+            <ul class="list-unstyled text-muted">
+               <li><a href="#" class="white">Help</a></li>
+               <li><a href="#" class="white">Privacy Policy</a></li>
+               <li><a href="#" class="white">Terms</a></li>
+            </ul>
+         </div>
+         <br><br><br><br>
+      </div>
+   </footer>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src="sidebar.js"></script>
+</body>
+
+</html>

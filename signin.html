@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <title>Sign In - E-commerce</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- End Sidebar-->
+   <nav class="navbar navbar-expand-lg navbar-light  " style="background-color: #13263c;">
+      <img src="logo.png" style="width:auto;height:45px;">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <a href="signin.html" style="color:white;margin-right:10px;">Sign In</a>
+      <span style="font-size:30px;cursor:pointer;color:white; " onclick="openNav()">&#9776;</span>&nbsp;&nbsp;
+      <form class="form-inline my-2 my-lg-0">
+         <input class="searchInput form-control mr-sm-2" style="width:70%;margin-right:18px;" type="search"
+            placeholder="Search" aria-label="Search">
+         <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+   </nav>
+   <!-- End Navbar -->
+   <!-- Start Sidebar-->
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <img src="logo.png" style="width:auto;height:35px;margin:20px;margin-top:-45px;">
+      <a href="index.html">Home</a>
+      <hr>
+      <a href="#">Account Settings</a>
+      <hr>
+      <a href="#">About Us</a>
+      <hr>
+      <a href="#">Contact Us</a>
+      <hr>
+      <a href="#">Logout</a>
+      <hr>
+   </div>
+   <!-- End Sidebar -->
+   <h2 class="text-center" style="text-decoration: underline;text-decoration-color: green;">Sign In</h2>
+   <div class="text-center"> <span>New Here? </span><a href="create.html">Create an account</a>.</div>
+
+   <div class="container">
+      <div class="mb-3"><br>
+         <label for="emailusernameinput" class="form-label">Email / Username: </label>
+         <input type="text" class="form-control" id="emailusernameinput" placeholder="">
+      </div>
+      <div class="mb-3">
+         <label style="display: inline-block;"  for="emailusernameinput" class="form-label">Password: </label>
+         <a style="display: inline-block;float:right;" href="#">Forgot Password?</a>
+         <input type="password" class="form-control" id="emailusernameinput" placeholder="">
+      </div>
+      <input type="checkbox" /> Remember Me <br><br>
+      <div class="text-center">
+         <button class="btn btn-success mb-2">Login</button><br>
+         OR<br>
+         <a href="create.html">  <button  class="mt-2 btn btn-success">Create an Account</button></a>
+      </div>
+   </div>
+   <br><br>
+   <footer class="w-100  flex-shrink-0 ">
+      <div class="container py-4">
+         <div style="float:left;">
+            <ul class="list-unstyled text-light">
+               <li><a href="#" class="white">Home</a></li>
+               <li><a href="#" class="white">About Us</a></li>
+               <li><a href="#" class="white">Contact Us</a></li>
+            </ul>
+         </div>
+         <div style="float:right;">
+            <ul class="list-unstyled text-muted">
+               <li><a href="#" class="white">Help</a></li>
+               <li><a href="#" class="white">Privacy Policy</a></li>
+               <li><a href="#" class="white">Terms</a></li>
+            </ul>
+         </div>
+         <br><br><br><br>
+      </div>
+   </footer>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src="sidebar.js"></script>
+</body>
+
+</html>
